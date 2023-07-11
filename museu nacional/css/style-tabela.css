@@ -1,0 +1,48 @@
+
+
+/*adaptado para celular*/
+@media screen and (max-width 480px) {
+	
+}
+
+/*ESTILIZANDO TABELAS*/
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*Formatando a table*/
+table {
+	width: 600px;
+	border-collapse: separate;
+	font-size: 15px;
+	background: linear-gradient(80deg, #87CEEB, #2E8B57, #FFA07A, #9370DB);
+}
+/*th títulos*/
+/*td dados*/
+th, td {
+	padding: 7px;
+}
+/*Cabeçalhos*/
+th {
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+tr.alterna {
+	background-color: #efefef;
+}
+
+tr:hover {
+	background-color: #c3e6e5;
+}
+
+th:hover {
+	background-color: RGB(216, 191, 216);
+}
+
+.valor {
+	text-align: right;
+}

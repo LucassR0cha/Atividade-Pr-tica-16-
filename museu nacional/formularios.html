@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- NOMALIZE -->
+	<link rel="stylesheet" type="text/css" href="css/style-nomalize.css">
+
+	<!-- customizado css -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!-- Estilo CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style-formulario.css">
+</head>
+<body>
+	<h2>Formulários</h2>
+	<!--Tag form-->
+	<form>
+		<!--fieldset agrupar dados semelhantes-->
+		<fieldset>
+			<!--fieldset legenda para o agrupamento-->
+			<legend>Detalhes De Contato</legend>
+			<div>
+				<!--label Rotulo-->
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome">
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email">
+			</div>
+			<div>
+				<label for="url">URL:</label>
+				<input type="text" name="url" id="url">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Comentários</legend>
+			<div>
+				<label for="mensagem">Mensagem:</label>
+				<textarea name="mensagem" id="mensagem"></textarea>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Lembar de Mim</legend>
+			<!--div separar os conteudos-->
+			<div>
+				<label>
+					<input class="radio" type="radio" name="lembrar" id="sim">Sim
+				</label>
+			</div>
+			<div>
+				<label>
+					<input class="radio" type="radio" name="lembrar" id="nao">Não
+				</label>
+			</div>
+		</fieldset>
+
+		<footer>
+				<p>
+					<a href="index.html">Home</a>
+					<a href="tabela.html">Tabela</a>
+					<a href="formularios.html">Formularios</a>
+				</p>
+				<p>
+					2023 <a href="">Museu Nacional</a> - Todos os direitos
+					reservador.
+				</p>
+			</footer>
+
+	</form>
+</body>
+</html>
